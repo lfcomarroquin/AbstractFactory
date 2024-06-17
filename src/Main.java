@@ -14,7 +14,6 @@ public class Main {
         String claseDeNotificacion = "App";
 
         if (urgenciaDeNotificacion == "Urgente") {
-            //System.out.println("Desea enviar la notificacion URGENTE por email, SMS o por la App?");
             if (claseDeNotificacion == "Email") {
                 emailUrgente.enviarEmail();
             } else if (claseDeNotificacion == "SMS") {
@@ -23,7 +22,6 @@ public class Main {
                 appUrgente.enviarApp();
             }
         } else if (urgenciaDeNotificacion == "Regular") {
-            //System.out.println("Desea enviar la notificacion regular por email, SMS o por la App?");
             if (claseDeNotificacion == "Email") {
                 emailRegular.enviarEmail();
             } else if (claseDeNotificacion == "SMS") {
